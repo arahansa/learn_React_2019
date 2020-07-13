@@ -2,3 +2,5 @@ styling-react/.idea/
 todo-list/.idea/
 redux-counter/.idea/
 hello-react/.idea/
+node_modules/
+react-router-tutorial/.idea/
