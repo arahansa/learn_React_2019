@@ -2,7 +2,8 @@ import React from 'react';
 import {Route} from 'react-router-dom';
 import {
     Home,
-    About
+    About,
+    Posts
 } from 'pages';
 
 import Menu from 'components/Menu';
@@ -13,6 +14,7 @@ const App = () => {
         <Menu/>
         <Route exact path="/" component={Home}/>
         <Route path="/about/:name?" component={About}/>
+        <Route path="/posts" component={Posts}/>
     </div>
   );
 }
