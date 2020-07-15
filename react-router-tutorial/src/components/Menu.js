@@ -1,9 +1,7 @@
 import React from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import {NavLink, withRouter} from 'react-router-dom';
 
 const Menu = () =>{
-
-
     const activeStyle = {
         color: 'green',
         fontSize: '2rem'
@@ -21,5 +19,4 @@ const Menu = () =>{
     )
 }
 
-
-export default Menu;
+export default withRouter(Menu);

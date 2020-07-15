@@ -29,3 +29,10 @@ componentDidUpdate : 컴포넌트의 업데이트 작업이 끝난 후 호출하
 16장 ReactRouter
 
 NavLink 는 Link 컴포넌트와 비슷하지만, 현재주소와 해당 컴포넌트의 목적지 주소가 같다면 특정 스타일 또는 클래스를 지정할 수 있다.
+
+
+16.6 라우트로 사용된 컴포넌트가 전달받는 props
+
+16.6.1 location : 현재 페이지의 주소 상태
+16.6.2 match : 컴포넌트에서 설정한 path와 관련된 데이터들을 조회할 때 사용
+16.6.3 history 는 현재 라우터를 조작할 때 사용함. push 와 replace 의 차이. push
