@@ -5,11 +5,14 @@ import {
     About
 } from 'pages';
 
+import Menu from 'components/Menu';
+
 const App = () => {
   return (
     <div className="App">
-      <Route exact path="/" component={Home}/>
-      <Route path="/about/:name?" component={About}/>
+        <Menu/>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about/:name?" component={About}/>
     </div>
   );
 }
